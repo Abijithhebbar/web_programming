@@ -317,5 +317,5 @@ document.getElementById('4').innerHTML = input.products[3].title + "<br><br>" + 
 
 
 localStorage.setItem('myStorage', JSON.stringify(input));
-var output = JSON.parse(localStorage.getItem('myStorage'));
-console.log(output);
+input = JSON.parse(localStorage.getItem('myStorage'));
+console.log(input);
