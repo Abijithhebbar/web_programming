@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exam 3</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="grid-container">
+	<div class="row">
+		<div class="col-xs-6 well" id="samsung">
+		<img src="1.jpeg"  style="width:40%;" height="330px" id="img1">
+		<p id="1"> 
+	
+	</p>
+
+	 <br><br>
+	<button id="edit1" type="button" onclick="editsam()"> Edit</button>
+	<input type="text" id="samname" style="display: none;" placeholder="Name">
+	<input type="text" id="samdesc" style="display: none;" placeholder="Description">
+	<input type="text" id="samquan" style="display: none;" placeholder="Quantity">
+	<button id="save1" type="button" onclick="savSam()" style="display: none;" > Save</button>
+
+	<!-- <button style = "display: none;" id = "editsamnam" type = "button"> Edit Name </button> -->
+	<button id="delete1" type="button" onclick="deletesam()"> Delete</button>
+	</div>
+	<div class="col-xs-6 well" id="mi">
+		<img src="2.jpeg"  style="width:40%;" height="330px" id="img2">
+		<p id="2"> 
+	
+	</p>
+	<button id="edit2" type="button" onclick="editmi()"> Edit</button>
+	<input type="text" id="miname" style="display: none;" placeholder="Name">
+	<input type="text" id="midesc" style="display: none;" placeholder="Description">
+	<input type="text" id="miquan" style="display: none;" placeholder="Quantity">
+	<button id="save2" type="button" onclick="savMi()" style="display: none;" > Save</button>
+	<button id="delete2" type="button" onclick="deletemi()"> Delete</button>
+	</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6 well" id="apple">
+		<img src="3.jpeg"  style="width:40%;" height="330px" id="img3">
+		<p id="3"> 
+	
+	</p>
+	<button id="edit3" type="button" onclick="editapp()"> Edit</button>
+	<input type="text" id="appname" style="display: none;" placeholder="Name">
+	<input type="text" id="appdesc" style="display: none;" placeholder="Description">
+	<input type="text" id="appquan" style="display: none;" placeholder="Quantity">
+	<button id="save3" type="button" onclick="savApp()" style="display: none;" > Save</button>
+	<button id="delete3" type="button" onclick="deleteapp()"> Delete</button>
+	</div>
+	<div class="col-xs-6 well" id="redmi">
+		<img src="4.jpeg"  style="width:40%;" height="330px" id="img4">
+		<p id="4"> 
+	
+	</p>
+	<button id="edit4" type="button" onclick="editred()"> Edit</button>
+	<input type="text" id="redname" style="display: none;" placeholder="Name">
+	<input type="text" id="reddesc" style="display: none;" placeholder="Description">
+	<input type="text" id="redquan" style="display: none;" placeholder="Quantity">
+	<button id="save4" type="button" onclick="savRed()" style="display: none;" > Save</button>
+	<button id="delete4" type="button" onclick="deletered()"> Delete</button>
+	</div>
+	</div>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
