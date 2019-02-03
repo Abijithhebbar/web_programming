@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1><center><b>Learning by Doing</b></center></h1>
+	<div class="container well">
+		<button id="h1" type="button" onclick="hint(1)">Hint</button>
+		<div class="alert alert-info" style="display: none;" id="hint1">
+  </div>
+	<p id="q1">Who is the father of computer?</p>
+	<button type="button"  id = "a1"  onclick="check(this.id)"> Charles cabbage </button><br><br>
+	<button type="button"  id = "b1"  onclick="check(this.id)"> Charles babbage </button><br><br><br><br>
+	<div class="alert alert-success" style="display: none;" id="sucess1">
+  </div>
+  <div class="alert alert-danger" style="display: none;" id="failure1">
+  </div>
+  		<button id="h1" type="button" onclick="hint(2)">Hint</button>
+		<div class="alert alert-info" style="display: none;" id="hint2">
+  </div>
+	<p id="q2">What is the full form of MSIT?</p>
+	<button type="button"  id = "a2"  onclick="check1(this.id)"> Master of Science in Information and Technology <br><br></button><br><br>
+	<button type="button"  id = "b2"  onclick="check1(this.id)"> Masters in Income Tax <br><br></button><br><br>
+	<div class="alert alert-success" style="display: none;" id="sucess2">
+  </div>
+  <div class="alert alert-danger" style="display: none;" id="failure2">
+  </div>
+ <!--  <div id="score"> 
+  </div> -->
+      <!-- <button id = "refresh" type = "button" onclick="window.location.reload()">
+        Refresh
+      </button> -->
+      	</div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
